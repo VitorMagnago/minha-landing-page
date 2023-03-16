@@ -34,16 +34,18 @@
 		/>
 	</head>
 	<body class="bg-light-background flex flex-col items-center">
-		<div class="w-3/4">
-			<header class="flex justify-between">
-				<img
-					src="./images/bell-icon.svg"
-					alt="logo de um ícone de sino em um círculo de cor escura"
-					width="60px"
-				/>
-				<div class="flex items-center gap-24">
+		<div class="w-4/5">
+			<header class="flex justify-between pt-6">
+				<a href="https://vitormagnago.com">
+					<img
+						src="./images/bell-icon.svg"
+						alt="logo de um ícone de sino em um círculo de cor escura"
+						width="60px"
+					/>
+				</a>
+				<div class="flex items-center gap-24 text-xl font-medium">
 					<nav>
-						<ul class="flex gap-16">
+						<ul class="flex gap-16 font-dmsans text-solid-heading">
 							<a href="">Home</a>
 							<a href="">Sobre Mim</a>
 							<a href="">Tech Stack</a>
@@ -52,16 +54,16 @@
 						</ul>
 					</nav>
 					<div class="flex gap-5">
-						<a href="https://github.com/VitorMagnago"
+						<a href="https://github.com/VitorMagnago" class="shrink-0"
 							><img src="./images/github-icon.svg" alt="Ícone do Github"
 						/></a>
-						<a href="https://www.linkedin.com/in/vitormagnago/"
+						<a href="https://www.linkedin.com/in/vitormagnago/" class="shrink-0"
 							><img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin"
 						/></a>
 					</div>
 				</div>
 			</header>
-			<main>
+			<main class="flex justify-center p-20">
 				<div
 					class="h-auto w-[350px] bg-gradient-to-r from-asset-green to-asset-orange p-2 rounded-full"
 				>
@@ -75,21 +77,27 @@
 					</div>
 				</div>
 			</main>
-			<footer>
-				<img
-					src="./images/bell-icon.svg"
-					alt="logo de um ícone de sino em um círculo de cor escura"
-					width="60px"
-				/>
-				<div>
-					<span>+55(27)99715-9455</span>
-					<span>avmagnago@gmail.com</span>
-					<div>
-						<img src="./images/github-icon.svg" alt="Ícone do Github" />
-						<img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin" />
+			<footer class="flex flex-col items-center">
+				<a href="https://vitormagnago.com">
+					<img
+						src="./images/bell-icon.svg"
+						alt="logo de um ícone de sino em um círculo de cor escura"
+						width="60px"
+					/>
+				</a>
+				<div class="flex">
+					<a href="https://wa.me/5527997159455">+55(27)99715-9455</a>
+					<a href="mailto:avmagnago@gmail.com">avmagnago@gmail.com</a>
+					<div class="flex">
+						<a href="https://github.com/VitorMagnago"
+							><img src="./images/github-icon.svg" alt="Ícone do Github"
+						/></a>
+						<a href="https://www.linkedin.com/in/vitormagnago/"
+							><img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin"
+						/></a>
 					</div>
 				</div>
-				<div>
+				<div class="flex">
 					<nav>
 						<ul>
 							<a href="">Home</a>
@@ -98,8 +106,8 @@
 							<a href="">Projetos</a>
 							<a href="">Contato</a>
 						</ul>
-						<span class="">built by Vitor Magnago</span>
 					</nav>
+					<span class="">built by Vitor Magnago</span>
 				</div>
 			</footer>
 		</div>

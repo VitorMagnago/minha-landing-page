@@ -572,12 +572,24 @@ video {
   width: 334px;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -633,4 +645,34 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.font-dmsans {
+  font-family: DM Sans, sans-serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-solid-heading {
+  --tw-text-opacity: 1;
+  color: rgb(57 47 90 / var(--tw-text-opacity));
 }
