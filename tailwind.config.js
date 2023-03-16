@@ -5,13 +5,17 @@ module.exports = {
 		extend: {
 			colors: {
 				solid: {
-					heading: "#42446E",
+					heading: "#392F5A",
 				},
 				light: {
-					background: "#FFFDF6",
+					background: "#FFF8F0",
 				},
 				dark: {
 					content: "#666666",
+				},
+				asset: {
+					green: "#9DD9D2",
+					orange: "#FF8811",
 				},
 			},
 			fontFamily: {
