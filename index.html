@@ -33,54 +33,75 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body class="bg-light-background">
-		<header>
-			<img
-				src="./images/bell-icon.svg"
-				alt="logo de um ícone de sino em um círculo de cor escura"
-			/>
-			<div>
-				<nav>
-					<ul>
-						<a href="">Home</a>
-						<a href="">Sobre Mim</a>
-						<a href="">Tech Stack</a>
-						<a href="">Projetos</a>
-						<a href="">Contato</a>
-					</ul>
-				</nav>
-				<div>
-					<img src="./images/github-icon.svg" alt="Ícone do Github" />
-					<img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin" />
+	<body class="bg-light-background flex flex-col items-center">
+		<div class="w-3/4">
+			<header class="flex justify-between">
+				<img
+					src="./images/bell-icon.svg"
+					alt="logo de um ícone de sino em um círculo de cor escura"
+					width="60px"
+				/>
+				<div class="flex items-center gap-24">
+					<nav>
+						<ul class="flex gap-16">
+							<a href="">Home</a>
+							<a href="">Sobre Mim</a>
+							<a href="">Tech Stack</a>
+							<a href="">Projetos</a>
+							<a href="">Contato</a>
+						</ul>
+					</nav>
+					<div class="flex gap-5">
+						<a href="https://github.com/VitorMagnago"
+							><img src="./images/github-icon.svg" alt="Ícone do Github"
+						/></a>
+						<a href="https://www.linkedin.com/in/vitormagnago/"
+							><img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin"
+						/></a>
+					</div>
 				</div>
-			</div>
-		</header>
-		<main></main>
-		<footer>
-			<img
-				src="./images/bell-icon.svg"
-				alt="logo de um ícone de sino em um círculo de cor escura"
-			/>
-			<div>
-				<span>+55(27)99715-9455</span>
-				<span>avmagnago@gmail.com</span>
-				<div>
-					<img src="./images/github-icon.svg" alt="Ícone do Github" />
-					<img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin" />
+			</header>
+			<main>
+				<div
+					class="h-auto w-[350px] bg-gradient-to-r from-asset-green to-asset-orange p-2 rounded-full"
+				>
+					<div class="h-auto w-[334px] bg-light-background rounded-full">
+						<img
+							src="images/vitor-magnago.jpg"
+							alt=""
+							width="350px"
+							class="rounded-full"
+						/>
+					</div>
 				</div>
-			</div>
-			<div>
-				<nav>
-					<ul>
-						<a href="">Home</a>
-						<a href="">Sobre Mim</a>
-						<a href="">Tech Stack</a>
-						<a href="">Projetos</a>
-						<a href="">Contato</a>
-					</ul>
-					<span>built by Vitor Magnago</span>
-				</nav>
-			</div>
-		</footer>
+			</main>
+			<footer>
+				<img
+					src="./images/bell-icon.svg"
+					alt="logo de um ícone de sino em um círculo de cor escura"
+					width="60px"
+				/>
+				<div>
+					<span>+55(27)99715-9455</span>
+					<span>avmagnago@gmail.com</span>
+					<div>
+						<img src="./images/github-icon.svg" alt="Ícone do Github" />
+						<img src="./images/linkedin-icon.svg" alt="Ícone do Linkedin" />
+					</div>
+				</div>
+				<div>
+					<nav>
+						<ul>
+							<a href="">Home</a>
+							<a href="">Sobre Mim</a>
+							<a href="">Tech Stack</a>
+							<a href="">Projetos</a>
+							<a href="">Contato</a>
+						</ul>
+						<span class="">built by Vitor Magnago</span>
+					</nav>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
